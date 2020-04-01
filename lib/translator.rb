@@ -10,7 +10,7 @@ def load_library
   pp top
   erg = {}
   top.each_pair do |name, emot_array|
-    erg[name] = {english: emot_array[0], japanese: emot_array[1]
+    erg[name] = {english: emot_array[0], japanese: emot_array[1]}
   end
   pp erg
 end
