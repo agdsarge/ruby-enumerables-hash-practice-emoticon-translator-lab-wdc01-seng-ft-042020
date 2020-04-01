@@ -13,6 +13,7 @@ def load_library
     erg[name] = {english: emot_array[0], japanese: emot_array[1]}
   end
   pp erg
+  return erg
 end
 
 load_library
