@@ -5,12 +5,11 @@ def load_library(path)
   require 'yaml'
 
   top = YAML.load_file(path)
-  erg = {}
-  top.each_pair do |name, emot_array|
-    erg[name] = {english: emot_array[0], japanese: emot_array[1]}
+  dict = {}
+  top.each_pair { |name, emot_array| dict[name] = {english: emot_array[0], japanese: emot_array[1]} }
   end
 
-  return erg
+  return dict
 end
 
 
