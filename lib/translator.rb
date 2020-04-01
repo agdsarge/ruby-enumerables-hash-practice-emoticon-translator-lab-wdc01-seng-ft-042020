@@ -6,7 +6,8 @@ def load_library(path)
 
   top = YAML.load_file(path)
   dict = {}
-  top.each_pair { |name, emot_array| dict[name] = {english: emot_array[0], japanese: emot_array[1]} }
+  top.each_pair do |name, emot_array|
+    dict[name] = {english: emot_array[0], japanese: emot_array[1]}
   end
 
   return dict
