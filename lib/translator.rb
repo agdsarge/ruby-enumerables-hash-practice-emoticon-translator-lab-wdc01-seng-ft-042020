@@ -21,3 +21,10 @@ def get_english_meaning(path, w_emoticon)
   pp dictionary
   
 end
+
+get_english_meaning('lib/')
+
+
+
+
+
