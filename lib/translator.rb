@@ -9,9 +9,10 @@ def load_library
   top = YAML.load_file('emoticons.yml')
   pp top
   
-  
-  
 end
+
+load_library
+
 
 def get_japanese_emoticon
   # code goes here
