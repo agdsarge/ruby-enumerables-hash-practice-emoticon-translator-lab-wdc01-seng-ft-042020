@@ -12,7 +12,7 @@ end
 
 
 def get_japanese_emoticon(path, j_emoticon)
-  
+  dictionary = load_library(path)
   
 end
 
