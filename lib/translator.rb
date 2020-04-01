@@ -19,7 +19,6 @@ end
 def get_english_meaning(path, w_emoticon)
   require 'pp'
   dictionary = load_library(path)
-  pp dictionary
   dictionary.each_pair do |meaning, lang_hash|
     pp lang_hash
   end
