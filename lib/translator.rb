@@ -20,7 +20,7 @@ def get_english_meaning(path, w_emoticon)
   require 'pp'
   dictionary = load_library(path)
   pp dictionary
-  
+  return nil
 end
 
 get_english_meaning('lib/emoticons.yml', ":)")
