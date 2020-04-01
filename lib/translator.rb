@@ -16,7 +16,7 @@ def load_library(path)
   return erg
 end
 
-load_library
+
 
 
 def get_japanese_emoticon
