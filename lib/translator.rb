@@ -28,7 +28,7 @@ def get_english_meaning(path, w_emoticon)
   return nil
 end
 
-get_english_meaning('lib/emoticons.yml', ":)")
+p get_english_meaning('lib/emoticons.yml', ":)")
 
 
 
