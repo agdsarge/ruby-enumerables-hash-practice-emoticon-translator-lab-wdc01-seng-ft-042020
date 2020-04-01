@@ -6,7 +6,7 @@ def load_library
   #each key's value is a hash. keys are :english and :japanese
   require 'yaml'
   require 'pp'
-  top = YAML.load_file('emoticons.yml')
+  top = YAML.load_file('lib/emoticons.yml')
   pp top
   
 end
