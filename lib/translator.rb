@@ -25,7 +25,7 @@ def get_english_meaning(path, w_emoticon)
       return meaning
     end
   end
-  return 
+  return "Sorry, that emoticon was not found"
 end
 
 p get_english_meaning('lib/emoticons.yml', ":)")
