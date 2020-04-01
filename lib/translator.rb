@@ -16,6 +16,7 @@ def get_japanese_emoticon(path, w_emoticon)
   dictionary.each_pair do |meaning, lang_hash|
     if lang_hash.has_value?(w_emoticon)
       p lang_hash
+    end
   end
 end
 
