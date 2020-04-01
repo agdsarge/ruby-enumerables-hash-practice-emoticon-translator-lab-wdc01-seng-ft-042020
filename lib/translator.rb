@@ -23,6 +23,8 @@ def get_english_meaning(path, w_emoticon)
   dictionary.each_pair do |meaning, lang_hash|
     lang_hash.each_pair do |language. emot|
       pp emot
+    end
+  end
   return nil
 end
 
