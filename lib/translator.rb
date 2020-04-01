@@ -21,6 +21,7 @@ def get_english_meaning(path, w_emoticon)
   dictionary = load_library(path)
   dictionary.each_pair do |meaning, lang_hash|
     pp lang_hash
+    if lang_hash.has
   end
   return nil
 end
