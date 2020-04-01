@@ -9,6 +9,7 @@ def load_library
   top = YAML.load_file('lib/emoticons.yml')
   pp top
   
+  
 end
 
 load_library
