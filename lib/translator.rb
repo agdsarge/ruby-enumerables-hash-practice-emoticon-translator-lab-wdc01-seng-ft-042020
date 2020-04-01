@@ -11,17 +11,15 @@ def load_library(path)
 end
 
 
-def get_japanese_emoticon(path, j_emoticon)
+def get_japanese_emoticon(path, w_emoticon)
   dictionary = load_library(path)
   
 end
 
-def get_english_meaning(path, w_emoticon)
-  require 'pp'
+def get_english_meaning(path, j_emoticon)
   dictionary = load_library(path)
   dictionary.each_pair do |meaning, lang_hash|
-    #pp lang_hash
-    if lang_hash.has_value?(w_emoticon)
+    if lang_hash.has_value?(j_emoticon)
       return meaning
     end
   end
