@@ -21,12 +21,7 @@ def get_english_meaning(path, w_emoticon)
   dictionary = load_library(path)
   pp dictionary
   dictionary.each_pair do |meaning, lang_hash|
-    lang_hash.each_pair do |language, emot|
-      pp emot
-      if emot == w_emoticon
-        puts "HUZZAH"
-      end
-    end
+    pp lang_hash
   end
   return nil
 end
