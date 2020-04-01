@@ -8,8 +8,11 @@ def load_library
   require 'pp'
   top = YAML.load_file('lib/emoticons.yml')
   pp top
-  
-  
+  erg = {}
+  top.each_pair do |name, emot_array|
+    erg[name] = {english: emot_array[0], japanese: emot_array[1]
+  end
+  pp erg
 end
 
 load_library
