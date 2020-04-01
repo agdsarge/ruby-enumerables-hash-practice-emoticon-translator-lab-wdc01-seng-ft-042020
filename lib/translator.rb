@@ -22,7 +22,7 @@ def get_english_meaning(path, w_emoticon)
   
 end
 
-get_english_meaning('lib/')
+get_english_meaning('lib/emoticons.yml', ":)")
 
 
 
