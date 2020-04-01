@@ -24,7 +24,7 @@ def get_english_meaning(path, w_emoticon)
     lang_hash.each_pair do |language, emot|
       pp emot
       if emot == w_emoticon
-        print "HUZZAH"
+        puts "HUZZAH"
       end
     end
   end
